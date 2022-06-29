@@ -1,0 +1,30 @@
+#1
+
+function validate(mass, acceleration, force) {
+    return mass * acceleration == force
+}
+
+########################################################
+#2
+
+button1  = document.getElementById('button1')
+function onClick(event){
+   console.log("clicked");
+}
+button1.addEventListener('click', onClick);
+########################################################
+#3
+ 
+array.map(x => x+1)
+array.filter(x => x>=3)
+########################################################
+#4
+
+car = new Object()
+car.make = 'Truck'
+car.model = 'Mercedes'
+car.drive = function () {
+  console.log("Driving");
+}
+;
+#######################################################
